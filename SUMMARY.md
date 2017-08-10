@@ -2,7 +2,18 @@
 
 * [目录](README.md)
 * [java基础](javaji-chu-2.md)
+  * [JVM](jvm.md)
+    * JVM内存管理
+    * GC回收机制
+    * 类加载机制
+  * [多线程](duo-xian-cheng.md)
+    * lock实现原理
+    * synchronized实现原理
+    * [lock和synchronized的区别、应用场景](duo-xian-cheng/lockhe-synchronized-de-qu-bie-3001-ying-yong-chang-jing.md)
+    * stop和supend为什么线程不安全
   * [线程池](xian-cheng-chi.md)
+    * 线程池参数和实现原理
+    * 线程池是如何执行线程的
   * [Spring](spring.md)
     * [AOP](spring/aop.md)
     * [IOC](spring/ioc.md)
@@ -13,7 +24,8 @@
   * [AIO/NIO/BIO](aioniobio.md)
   * [concurrentHashMap](concurrenthashmap.md)
   * netty
-  * dubbo+zookeeper
+  * [dubbo+zookeeper](dubbo+zookeeper.md)
+  * JVM
 * [tcp/ip](tcpip.md)
   * [TCP三次握手](tcpip/tcpsan-ci-wo-shou.md)
   * [TCP四次挥手](tcpip/tcpsi-ci-hui-shou.md)
@@ -27,4 +39,9 @@
   * [mysql](mysql.md)
     * [mysql索引类型](mysqlsuo-yin-lei-xing.md)
     * [innodb和myisam的区别](innodb.md)
+    * [mysql高可用架构](mysqlgao-ke-yong-jia-gou.md)
+* [redis](redis.md)
+  * redis哨兵集群架构
+  * redis-set类型最大key是多少
+* [消息队列](kafka.md)
 
