@@ -23,9 +23,10 @@
     * [HashMap-Java8有何增强](hashmap/hashmap-java8zeng-qiang.md)
   * [AIO/NIO/BIO](aioniobio.md)
   * [concurrentHashMap](concurrenthashmap.md)
-  * netty
+  * [netty](netty.md)
     * [netty线程模型](nettyxian-cheng-mo-xing.md)
     * [netty哪些对象与NIO对应](nettyna-xie-dui-xiang-yu-nio-dui-ying.md)
+    * [socks代理实现原理](socksdai-li-shi-xian-yuan-li.md)
   * [dubbo+zookeeper](dubbo+zookeeper.md)
 * [tcp/ip](tcpip.md)
   * [TCP三次握手](tcpip/tcpsan-ci-wo-shou.md)
