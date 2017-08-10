@@ -30,7 +30,7 @@ Native heap，就是C\_Heap，对于32位的机器C-Heap的容量=4G-Java Heap-P
 
 元空间和方法区的区别：
 
-1. 用户不用指定元空间的大小，受限于本地native memory大小
+1. 元空间的大小用户不用指定，受限于本地native memory大小。而方法区的大小用户必须指定，默认64M很容易溢出
 2. 
 参考文献：
 
