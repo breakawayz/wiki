@@ -3,7 +3,7 @@
 * [目录](README.md)
 * [java基础](javaji-chu-2.md)
   * [JVM](jvm.md)
-    * JVM内存管理
+    * [JVM内存管理](jvm/jvmnei-cun-guan-li.md)
     * GC回收机制
     * 类加载机制
   * [多线程](duo-xian-cheng.md)
