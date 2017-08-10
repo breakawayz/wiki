@@ -1,6 +1,5 @@
-# Summary
+# 目录
 
-* [目录](README.md)
 * [java基础](javaji-chu-2.md)
   * [线程池](xian-cheng-chi.md)
   * [Spring](spring.md)
