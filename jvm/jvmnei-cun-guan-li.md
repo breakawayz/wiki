@@ -1,5 +1,3 @@
-
-
 JVM内存空间主要包含了：java堆、方法区、java虚拟机栈、本地方法栈、程序计数器等
 
 * **java堆**：共享区域，所有的对象都是在堆上创建的。
@@ -24,12 +22,16 @@ JVM内存空间主要包含了：java堆、方法区、java虚拟机栈、本地
 
 方法区中的符号引用放到了Native heap，字面常量\(String.intern\)和静态变量放到了java heap中
 
-Native heap，就是C\_Heap，对于32位的机器C-Heap的容量=4G-Java Heap-PermGen，对于64位的JVM，C-Heap的容量=物理服务器的总RAM+虚拟内存-Java Heap-PermGen。Linux机器虚拟内存即为交换空间swap space
+Native heap，就是C\_Heap，对于32位的机器C-Heap的容量=4G-Java Heap-PermGen，对于64位的JVM，C-Heap的容量=物理服务器的总RAM+虚拟内存-Java Heap-PermGen。Linux机器虚拟内存即为交换空间swap space。
 
 ### Java8中的改变：
 
-元空间：在java8中取消了方法区，用于存放类的元数据信息，
+元空间：在java8中取消了方法区，用于存放类的元数据信息。
 
+元空间和方法区的区别：
+
+1. 用户不用指定元空间的大小，受限于本地native memory大小
+2. 
 参考文献：
 
 [http://blog.csdn.net/zhangerqing/article/details/8214365](http://blog.csdn.net/zhangerqing/article/details/8214365)
