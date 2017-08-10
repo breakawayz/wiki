@@ -24,6 +24,8 @@
   * [AIO/NIO/BIO](aioniobio.md)
   * [concurrentHashMap](concurrenthashmap.md)
   * netty
+    * netty线程模型
+    * netty哪些对象与NIO对应
   * [dubbo+zookeeper](dubbo+zookeeper.md)
   * JVM
 * [tcp/ip](tcpip.md)
