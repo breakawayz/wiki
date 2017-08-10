@@ -8,7 +8,7 @@
     * [类加载机制](jvm/lei-jia-zai-ji-zhi.md)
   * [多线程](duo-xian-cheng.md)
     * [lock实现原理](duo-xian-cheng/lockshi-xian-yuan-li.md)
-    * synchronized实现原理
+    * [synchronized实现原理](duo-xian-cheng/synchronizedshi-xian-yuan-li.md)
     * [lock和synchronized的区别、应用场景](duo-xian-cheng/lockhe-synchronized-de-qu-bie-3001-ying-yong-chang-jing.md)
     * stop和supend为什么线程不安全
   * [线程池](xian-cheng-chi.md)
