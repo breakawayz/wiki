@@ -1,4 +1,4 @@
-![](http://img.blog.csdn.net/20150908154704495)
+
 
 JVM内存空间主要包含了：java堆、方法区、java虚拟机栈、本地方法栈、程序计数器等
 
@@ -24,7 +24,7 @@ JVM内存空间主要包含了：java堆、方法区、java虚拟机栈、本地
 
 方法区中的符号引用放到了Native heap，字面常量\(String.intern\)和静态变量放到了java heap中
 
-Native heap，就是C\_Heap，对于32位的机器C-Heap的容量=4G-Java Heap-PermGen，对于64位的JVM，C-Heap的容量=物理服务器的总RAM+虚拟内存-Java Heap-PermGen。
+Native heap，就是C\_Heap，对于32位的机器C-Heap的容量=4G-Java Heap-PermGen，对于64位的JVM，C-Heap的容量=物理服务器的总RAM+虚拟内存-Java Heap-PermGen。Linux机器虚拟内存即为交换空间swap space
 
 ### Java8中的改变：
 
