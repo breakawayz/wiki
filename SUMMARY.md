@@ -11,6 +11,7 @@
     * [CMS回收期使用的算法](jvm/cmshui-shou-qi-shi-yong-de-suan-fa.md)
     * [JVM内存泄漏的原因](jvm/jvmnei-cun-xie-lou-de-yuan-yin.md)
     * 强引用、弱引用、虚引用
+    * 栈和堆哪个速度快
   * [多线程](duo-xian-cheng.md)
     * [lock实现原理](duo-xian-cheng/lockshi-xian-yuan-li.md)
     * [synchronized实现原理](duo-xian-cheng/synchronizedshi-xian-yuan-li.md)
