@@ -4,6 +4,7 @@
 * [java基础](javaji-chu-2.md)
   * [JVM](jvm.md)
     * [JVM内存管理](jvm/jvmnei-cun-guan-li.md)
+    * 什么是符号引用和直接引用
     * [JVM回收机制](jvm/gchui-shou-ji-zhi.md)
     * [类加载机制](jvm/lei-jia-zai-ji-zhi.md)
     * [G1回收器原理](jvm/g1hui-shou-qi-yuan-li.md)
@@ -11,7 +12,7 @@
     * [CMS回收期使用的算法](jvm/cmshui-shou-qi-shi-yong-de-suan-fa.md)
     * [JVM内存泄漏的原因](jvm/jvmnei-cun-xie-lou-de-yuan-yin.md)
     * 强引用、弱引用、虚引用
-    * 栈和堆哪个速度快
+    * 什么是符号引用和直接引用
   * [多线程](duo-xian-cheng.md)
     * [lock实现原理](duo-xian-cheng/lockshi-xian-yuan-li.md)
     * [synchronized实现原理](duo-xian-cheng/synchronizedshi-xian-yuan-li.md)
