@@ -22,6 +22,8 @@ JVM内存空间主要包含了：java堆、方法区、java虚拟机栈、本地
 
 ### Java8中的改变：
 
+
+
 参考文献：
 
 [http://blog.csdn.net/zhangerqing/article/details/8214365](http://blog.csdn.net/zhangerqing/article/details/8214365)
