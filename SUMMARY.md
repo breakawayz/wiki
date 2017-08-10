@@ -12,7 +12,7 @@
     * [lock和synchronized的区别、应用场景](duo-xian-cheng/lockhe-synchronized-de-qu-bie-3001-ying-yong-chang-jing.md)
     * [stop和supend为什么线程不安全](duo-xian-cheng/stophe-supend-wei-shi-yao-xian-cheng-bu-an-quan.md)
   * [线程池](xian-cheng-chi.md)
-    * 线程池参数和实现原理
+    * [线程池参数和实现原理](xian-cheng-chi/xian-cheng-chi-can-shu-he-shi-xian-yuan-li.md)
     * 线程池是如何执行线程的
   * [Spring](spring.md)
     * [AOP](spring/aop.md)
