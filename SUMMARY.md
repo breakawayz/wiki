@@ -27,7 +27,6 @@
     * [netty线程模型](nettyxian-cheng-mo-xing.md)
     * [netty哪些对象与NIO对应](nettyna-xie-dui-xiang-yu-nio-dui-ying.md)
   * [dubbo+zookeeper](dubbo+zookeeper.md)
-  * [JVM](jvm.md)
 * [tcp/ip](tcpip.md)
   * [TCP三次握手](tcpip/tcpsan-ci-wo-shou.md)
   * [TCP四次挥手](tcpip/tcpsi-ci-hui-shou.md)
