@@ -5,7 +5,7 @@
   * 线程池
   * [Spring](spring.md)
     * [AOP](spring/aop.md)
-    * IOC
+    * [IOC](spring/ioc.md)
   * [HashMap](hashmap.md)
     * [HashMap数据结构是啥](hashmap/hashmapshu-ju-jie-gou.md)
     * [Hash为什么线程不安全](hashmap/wei-shi-yao-xian-cheng-bu-an-quan.md)
