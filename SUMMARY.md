@@ -4,7 +4,7 @@
 * [java基础](javaji-chu-2.md)
   * [JVM](jvm.md)
     * [JVM内存管理](jvm/jvmnei-cun-guan-li.md)
-    * 什么是符号引用和直接引用
+    * [什么是符号引用和直接引用](jvm/shi-yao-shi-fu-hao-yin-yong-he-zhi-jie-yin-yong.md)
     * [JVM回收机制](jvm/gchui-shou-ji-zhi.md)
     * [类加载机制](jvm/lei-jia-zai-ji-zhi.md)
     * [G1回收器原理](jvm/g1hui-shou-qi-yuan-li.md)
