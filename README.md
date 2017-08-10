@@ -42,6 +42,7 @@
       * [mysql索引类型](mysqlsuo-yin-lei-xing.md)
       * [innodb和myisam的区别](innodb.md)
       * [mysql高可用架构](mysqlgao-ke-yong-jia-gou.md)
+    * [分布式事务](fen-bu-shi-shi-wu.md)
   * [redis](redis.md)
     * [redis哨兵集群架构](redis/redisshao-bing-ji-qun-jia-gou.md)
     * [redis-set类型最大key是多少](redis/redis-setlei-xing-zui-da-key-shi-duo-shao.md)
