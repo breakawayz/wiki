@@ -8,7 +8,7 @@
     * [类加载机制](jvm/lei-jia-zai-ji-zhi.md)
     * [G1回收器原理](jvm/g1hui-shou-qi-yuan-li.md)
     * [CMS存在的问题](jvm/cmscun-zai-de-wen-ti.md)
-    * CMS回收期使用的算法
+    * [CMS回收期使用的算法](jvm/cmshui-shou-qi-shi-yong-de-suan-fa.md)
   * [多线程](duo-xian-cheng.md)
     * [lock实现原理](duo-xian-cheng/lockshi-xian-yuan-li.md)
     * [synchronized实现原理](duo-xian-cheng/synchronizedshi-xian-yuan-li.md)
