@@ -30,11 +30,14 @@ Native heap，就是C\_Heap，对于32位的机器C-Heap的容量=4G-Java Heap-P
 
 元空间和方法区的区别：
 
-1. 元空间的大小用户不用指定，受限于本地native memory大小。而方法区的大小用户必须指定，默认64M很容易溢出
-2. 
+1. 元空间的大小用户不用指定，默认无限制，受限于本地native memory大小。而方法区的大小用户必须指定，默认64M很容易溢出
+2. hotspot中的垃圾收集器有专门的代码负责方法区的管理。而元数据与java heap是在相同的地址空间中，元空间和java heap可以无缝管理，简化了FullGC的过程。将来也可以并行管理元数据
+3. 
 参考文献：
 
 [http://blog.csdn.net/zhangerqing/article/details/8214365](http://blog.csdn.net/zhangerqing/article/details/8214365)
 
 [http://blog.csdn.net/suifeng3051/article/details/48292193](http://blog.csdn.net/suifeng3051/article/details/48292193)
+
+http://blog.csdn.net/zhushuai1221/article/details/52122880
 
