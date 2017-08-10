@@ -26,12 +26,12 @@ Native heap，就是C\_Heap，对于32位的机器C-Heap的容量=4G-Java Heap-P
 
 ### Java8中的改变：
 
-元空间：在java8中取消了方法区，用于存放类的元数据信息。
+元空间：在java8中取消了方法区，用于存放类的元数据信息。在元空间中，类的元数据生命周期与类加载器的生命周期是一致的。当类加载不在存活时，垃圾收集器会扫描该元数据是否存在引用。
 
-元空间和方法区的区别：
+#### 元空间和方法区的区别：
 
 1. 元空间的大小用户不用指定，默认无限制，受限于本地native memory大小。而方法区的大小用户必须指定，默认64M很容易溢出
-2. hotspot中的垃圾收集器有专门的代码负责方法区的管理。而元数据与java heap是在相同的地址空间中，元空间和java heap可以无缝管理，简化了FullGC的过程。将来也可以并行管理元数据
+2. hotspot中的垃圾收集器有专门的代码负责方法区的管理。而元空间与java heap是在相同的地址空间中，元空间和java heap可以无缝管理，简化了FullGC的过程。将来也可以并行管理元数据
 3. 
 参考文献：
 
@@ -39,5 +39,5 @@ Native heap，就是C\_Heap，对于32位的机器C-Heap的容量=4G-Java Heap-P
 
 [http://blog.csdn.net/suifeng3051/article/details/48292193](http://blog.csdn.net/suifeng3051/article/details/48292193)
 
-http://blog.csdn.net/zhushuai1221/article/details/52122880
+[http://blog.csdn.net/zhushuai1221/article/details/52122880](http://blog.csdn.net/zhushuai1221/article/details/52122880)
 
