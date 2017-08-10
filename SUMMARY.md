@@ -31,7 +31,7 @@
   * [AIO/NIO/BIO](aioniobio.md)
   * [concurrentHashMap](concurrenthashmap.md)
   * [dubbo+zookeeper](dubbo+zookeeper.md)
-  * 阻塞队列
+  * [阻塞队列](zu-sai-dui-lie.md)
 * [tcp/ip](tcpip.md)
   * [TCP三次握手](tcpip/tcpsan-ci-wo-shou.md)
   * [TCP四次挥手](tcpip/tcpsi-ci-hui-shou.md)
