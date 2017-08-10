@@ -5,7 +5,7 @@
   * [JVM](jvm.md)
     * [JVM内存管理](jvm/jvmnei-cun-guan-li.md)
     * [GC回收机制](jvm/gchui-shou-ji-zhi.md)
-    * 类加载机制
+    * [类加载机制](jvm/lei-jia-zai-ji-zhi.md)
   * [多线程](duo-xian-cheng.md)
     * lock实现原理
     * synchronized实现原理
