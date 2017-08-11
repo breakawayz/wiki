@@ -8,7 +8,7 @@ JVM内存空间主要包含了：java堆、方法区、java虚拟机栈、本地
 
 * **运行时常量池**：是方法区的一部分，用于存放编译时产生的符号引用、直接引用、字面常量。同时除了编译期的常量外，还有运行期的一些常量，比如String.intern\(\)方法，String类就维护了一个常量池
 
-* **虚拟机栈：**线程私有，每个线程都对应一个虚拟机栈，占用操作系统内存，用于存放局部变量表、操作数栈、方法出口、动态链接、方法调用的中间结果及返回值。当一个方法调用时栈帧入栈，调用结束方法出栈。
+* **虚拟机栈：**线程私有，每个线程都对应一个虚拟机栈，占用操作系统内存，用于存放局部变量表、操作数栈[^1]、方法出口、动态链接、方法调用的中间结果及返回值。当一个方法调用时栈帧入栈，调用结束方法出栈。
 
   ```
    局部变量表是方法相关的局部变量，包括基本数据类型、对象引用、返回地址等。
@@ -47,4 +47,8 @@ Native heap，就是C\_Heap，对于32位的机器C-Heap的容量=4G-Java Heap-P
 [http://blog.csdn.net/suifeng3051/article/details/48292193](http://blog.csdn.net/suifeng3051/article/details/48292193)
 
 [http://blog.csdn.net/zhushuai1221/article/details/52122880](http://blog.csdn.net/zhushuai1221/article/details/52122880)
+
+
+
+[^1]: http://denverj.iteye.com/blog/1218359
 
