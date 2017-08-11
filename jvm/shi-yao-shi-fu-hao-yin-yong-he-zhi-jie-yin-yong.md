@@ -4,15 +4,15 @@
 
 ##### 直接引用：
 
-对于类
+对于class对象、类方法、类变量的直接引用可能是指向方法区的本地指针
+
+对于实例变量、实例方法的引用是内存的偏离量。
 
 每一个栈帧内部都包含一个指向运行时常量池的引用来支持当前方法的代码实现动态链接\(Dynamic Linking\)。在 Class 文件里面,描述一个方法调用了其他方法,或者访问其成员变量是通过符号引用\(Symbolic Reference\)来表示的,动态链接的作用就是将这些符号引用所表示的方法转换为实际方法的直接引用。
 
 类加载的过程中将要解析掉尚未被解析的符号引用,并且将变量访问转化为访问这些变量的存储结构所在的运行时内存位置的正确偏移量。
 
-
-
 参考资料：
 
-http://blog.csdn.net/imzoer/article/details/8086255
+[http://blog.csdn.net/imzoer/article/details/8086255](http://blog.csdn.net/imzoer/article/details/8086255)
 
