@@ -1,4 +1,4 @@
-![](/assets/jvm_mem.png)
+![](/assets/jvm_mem.png)![](http://s10.sinaimg.cn/bmiddle/65ca444fnbcf86b581fa9&690)
 
 JVM内存空间主要包含了：java堆、方法区、java虚拟机栈、本地方法栈、程序计数器等
 
