@@ -22,7 +22,7 @@ JVM内存空间主要包含了：java堆、方法区、java虚拟机栈、本地
 
    动态链接：用于将用字符串描述的符号引用转换实际内存地址的直接引用
 
-   方法出口：
+   方法出口（return address）：
   ```
 
 * **本地方法栈：**用于执行本地native方法， 与虚拟机栈机制一样，只是虚拟栈是用于执行java方法，有些虚拟机如sun默认的Hotspot虚拟将虚拟栈和本地方法栈放在一起使用
@@ -58,7 +58,7 @@ Native heap，就是C\_Heap，对于32位的机器C-Heap的容量=4G-Java Heap-P
 
 [http://blog.csdn.net/suifeng3051/article/details/48292193](http://blog.csdn.net/suifeng3051/article/details/48292193)  JVM内存管理及GC机制
 
-[http://blog.csdn.net/zhushuai1221/article/details/52122880](http://blog.csdn.net/zhushuai1221/article/details/52122880)  
+[http://blog.csdn.net/zhushuai1221/article/details/52122880](http://blog.csdn.net/zhushuai1221/article/details/52122880)
 
 [http://www.cnblogs.com/niejunlei/p/5987611.html](http://www.cnblogs.com/niejunlei/p/5987611.html)**   **Java虚拟机栈
 
