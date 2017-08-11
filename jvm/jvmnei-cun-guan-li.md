@@ -4,7 +4,7 @@ JVM内存空间主要包含了：java堆、方法区、java虚拟机栈、本地
 
 * **java堆**：共享区域，所有的对象都是在堆上创建的。`java7之后还包含静态变量和字符常量String.intern`
 
-* **方法区：**共享区域，也叫永久代，主要存放要加载的类信息（修饰符，类名）、静态变量、final定义的常量、方法信息和类中的field。调用类的getName/isInterface方法这些数据都是来自于方法区。`java8之后该区域移除，新增元空间存放类元数据`
+* **方法区：**共享区域，也叫永久代，主要存放要加载的类信息（修饰符，类名）、静态变量、final定义的常量\(每个final变量都在常量池有一份拷贝\)、方法信息和类中的field。调用类的getName/isInterface方法这些数据都是来自于方法区。`java8之后该区域移除，新增元空间存放类元数据`
 
 * **运行时常量池**：是方法区的一部分，用于存放编译时产生的符号引用、直接引用、字面常量。同时除了编译期的常量外，还有运行期的一些常量，比如String.intern\(\)方法，String类就维护了一个常量池
 
@@ -19,7 +19,7 @@ JVM内存空间主要包含了：java堆、方法区、java虚拟机栈、本地
    字节码流中跟随在操作码-指令字节后面的字节。虚拟机指令执行过程中会将局部变量表中索引的压入操作数栈中执行运算
 
    动态链接：先搞清楚什么是符号引用
- 
+
    方法出口：
   ```
 
@@ -54,5 +54,5 @@ Native heap，就是C\_Heap，对于32位的机器C-Heap的容量=4G-Java Heap-P
 
 [http://blog.csdn.net/zhushuai1221/article/details/52122880](http://blog.csdn.net/zhushuai1221/article/details/52122880)
 
-http://www.cnblogs.com/niejunlei/p/5987611.html
+[http://www.cnblogs.com/niejunlei/p/5987611.html](http://www.cnblogs.com/niejunlei/p/5987611.html)
 
