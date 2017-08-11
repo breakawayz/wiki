@@ -50,13 +50,15 @@ Native heap，就是C\_Heap，对于32位的机器C-Heap的容量=4G-Java Heap-P
 
 1、[http://denverj.iteye.com/blog/1218359](http://denverj.iteye.com/blog/1218359)
 
-[http://blog.csdn.net/zhangerqing/article/details/8214365](http://blog.csdn.net/zhangerqing/article/details/8214365)
+[http://blog.csdn.net/zhangerqing/article/details/8214365](http://blog.csdn.net/zhangerqing/article/details/8214365)  Java之美\[从菜鸟到高手演变\]之JVM内存管理及垃圾回收
 
-[http://blog.csdn.net/suifeng3051/article/details/48292193](http://blog.csdn.net/suifeng3051/article/details/48292193)
+[http://blog.csdn.net/suifeng3051/article/details/48292193](http://blog.csdn.net/suifeng3051/article/details/48292193)  JVM内存管理及GC机制
 
-[http://blog.csdn.net/zhushuai1221/article/details/52122880](http://blog.csdn.net/zhushuai1221/article/details/52122880)
+[http://blog.csdn.net/zhushuai1221/article/details/52122880](http://blog.csdn.net/zhushuai1221/article/details/52122880)  http://blog.csdn.net/zhushuai1221/article/details/52122880
 
-[http://www.cnblogs.com/niejunlei/p/5987611.html](http://www.cnblogs.com/niejunlei/p/5987611.html)
+[http://www.cnblogs.com/niejunlei/p/5987611.html](http://www.cnblogs.com/niejunlei/p/5987611.html)**   **Java虚拟机栈
 
-[https://my.oschina.net/u/1156843/blog/203442](https://my.oschina.net/u/1156843/blog/203442)
+[https://my.oschina.net/u/1156843/blog/203442](https://my.oschina.net/u/1156843/blog/203442) 深入理解java虚拟机-运行时栈帧结构
+
+https://blog.smoker.cc/java/learn-jvm-1.html 《深入理解Java虚拟机》学习笔记-1
 
