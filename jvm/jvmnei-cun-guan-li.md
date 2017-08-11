@@ -29,8 +29,6 @@ JVM内存空间主要包含了：java堆、方法区、java虚拟机栈、本地
 
 * **程序计数器：**线程私有，当前线程的行号指示器，用于指示当前线程执行到第几行字节码。一个线程就一个程序计数器。字节码解析器通过修改计数器来获取下一条指令。如果执行的是java方法，则程序计数器记录的是当前执行的虚拟机字节码指令地址，如果执行的是本地方法（C语言），则记录的是undenfied。该区域不会内存溢出。
 
-
-
 #### Native heap：
 
 直接内存
@@ -60,7 +58,7 @@ Native heap，就是C\_Heap，对于32位的机器C-Heap的容量=4G-Java Heap-P
 
 [http://blog.csdn.net/suifeng3051/article/details/48292193](http://blog.csdn.net/suifeng3051/article/details/48292193)  JVM内存管理及GC机制
 
-[http://blog.csdn.net/zhushuai1221/article/details/52122880](http://blog.csdn.net/zhushuai1221/article/details/52122880)  [http://blog.csdn.net/zhushuai1221/article/details/52122880](http://blog.csdn.net/zhushuai1221/article/details/52122880)
+[http://blog.csdn.net/zhushuai1221/article/details/52122880](http://blog.csdn.net/zhushuai1221/article/details/52122880)  
 
 [http://www.cnblogs.com/niejunlei/p/5987611.html](http://www.cnblogs.com/niejunlei/p/5987611.html)**   **Java虚拟机栈
 
