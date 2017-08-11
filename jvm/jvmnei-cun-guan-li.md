@@ -1,4 +1,6 @@
-![](/assets/jvm_mem.png)![](http://s10.sinaimg.cn/bmiddle/65ca444fnbcf86b581fa9&690)
+![](/assets/jvm_mem.png)
+
+![](http://s10.sinaimg.cn/bmiddle/65ca444fnbcf86b581fa9&690)
 
 JVM内存空间主要包含了：java堆、方法区、java虚拟机栈、本地方法栈、程序计数器等
 
@@ -18,7 +20,7 @@ JVM内存空间主要包含了：java堆、方法区、java虚拟机栈、本地
    java虚拟机将操作数栈作为工作区，大部分指令都是从这里弹出数据、执行运算、然后将结果压回栈中。也可以从其他地方比如常量池或者
    字节码流中跟随在操作码-指令字节后面的字节。虚拟机指令执行过程中会将局部变量表中索引的压入操作数栈中执行运算
 
-   动态链接：先搞清楚什么是符号引用
+   动态链接：个人理解是将用字符串描述的符号引用转换实际内存地址的直接引用
 
    方法出口：
   ```
@@ -56,5 +58,5 @@ Native heap，就是C\_Heap，对于32位的机器C-Heap的容量=4G-Java Heap-P
 
 [http://www.cnblogs.com/niejunlei/p/5987611.html](http://www.cnblogs.com/niejunlei/p/5987611.html)
 
-https://my.oschina.net/u/1156843/blog/203442
+[https://my.oschina.net/u/1156843/blog/203442](https://my.oschina.net/u/1156843/blog/203442)
 
