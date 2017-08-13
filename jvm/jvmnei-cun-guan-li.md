@@ -26,7 +26,7 @@ JVM内存空间主要包含了：java堆、方法区、java虚拟机栈、本地
 
 #### Native heap：
 
-直接内存，非java运行是的一部分。可以通过nio的DirectBuffer进行操作。
+直接内存，非java运行是的一部分。可以通过nio的DirectByteBuffer进行操作。
 
 ### Java7中的改变：
 
