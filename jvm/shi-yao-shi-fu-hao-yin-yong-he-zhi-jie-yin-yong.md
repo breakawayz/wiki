@@ -18,3 +18,5 @@
 
 [http://blog.csdn.net/imzoer/article/details/8086255](http://blog.csdn.net/imzoer/article/details/8086255)
 
+https://www.zhihu.com/question/30300585?sort=created  符号引用存放在哪里
+
