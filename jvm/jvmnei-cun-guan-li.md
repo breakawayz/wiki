@@ -61,3 +61,5 @@ Native heap，就是C\_Heap，对于32位的机器C-Heap的容量=4G-Java Heap-P
 
 [https://blog.smoker.cc/java/learn-jvm-1.html](https://blog.smoker.cc/java/learn-jvm-1.html) 《深入理解Java虚拟机》学习笔记-1
 
+http://it.deepinmind.com/gc/2014/05/14/metaspace-in-java-8.html  元数据描述
+
